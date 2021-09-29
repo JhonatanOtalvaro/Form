@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+
+            <h2>Crea tu cuenta</h2>
+
+        </div>
+
+        <form class="form" id="form">
+            <!--Username-->
+
+            <div class="form-control ">
+
+                <label>Usuario</label>
+                <input type="text" placeholder="Usuario..." id="Usuario">
+                <i class="fas fa-check circle"></i>
+                <i class="fas fa-exclamation circle"></i>
+                <small>Error</small>
+
+            </div>
+           
+<!--success-->            <!--Email-->
+
+            <div class="form-control ">
+
+                <label>Correo</label>
+                <input type="email" placeholder="Correo@correo.com..." id="Email">
+                <i class="fas fa-check circle"></i>
+                <i class="fas fa-exclamation circle"></i>
+                <small>Error</small>
+
+            </div>
+
+ <!--error-->             <!--Password-->
+
+            <div class="form-control">
+
+                <label>Contraseña</label>
+                <input type="password" placeholder="Contraseña..." id="password">
+                <i class="fas fa-check circle"></i>
+                <i class="fas fa-exclamation circle"></i>
+                <small>Error</small>
+
+            </div>
+
+            <!--Password Check-->
+
+            <div class="form-control">
+
+                <label>Confirmar Contraseña</label>
+                <input type="password-check" placeholder="Confirma Contraseña..." id="passwordCheck">
+                <i class="fas fa-check circle"></i>
+                <i class="fas fa-exclamation circle"></i>
+                <small>Error</small>
+
+            </div>
+
+            <button>Registrar</button>
+        </form>
+
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
